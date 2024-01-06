@@ -1,0 +1,25 @@
+{
+    "name": "noeka/application",
+    "type": "library",
+    "description": "Application",
+    "scripts": {
+      "test": "./vendor/bin/phpunit tests"
+    },
+    "require": {
+        "php": "^8.3",
+        "psr/container": "^2.0@dev",
+        "noeka/di": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Noeka\\Application\\": "src/Noeka/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathias N. Kastrup"
+        }
+    ],
+    "minimum-stability": "dev"
+}
