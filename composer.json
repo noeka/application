@@ -2,6 +2,9 @@
     "name": "noeka/application",
     "type": "library",
     "description": "Application",
+    "scripts": {
+      "analyse": "./vendor/bin/phpstan"
+    },
     "require": {
         "php": "^8.3",
         "psr/container": "^2.0@dev",
