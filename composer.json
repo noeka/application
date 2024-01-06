@@ -18,5 +18,8 @@
             "name": "Mathias N. Kastrup"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpstan/phpstan": "2.0.x-dev"
+    }
 }
