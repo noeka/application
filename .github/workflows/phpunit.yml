@@ -42,3 +42,7 @@ jobs:
 
     - name: Run analyse
       run: composer run-script analyse
+
+    - name: Run tests
+      run: composer run-script test
+

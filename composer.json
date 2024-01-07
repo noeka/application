@@ -3,12 +3,14 @@
     "type": "library",
     "description": "Application",
     "scripts": {
-      "analyse": "./vendor/bin/phpstan"
+        "test": "./vendor/bin/phpunit tests",
+        "analyse": "./vendor/bin/phpstan"
     },
     "require": {
         "php": "^8.3",
         "psr/container": "^2.0@dev",
-        "noeka/di": "dev-main"
+        "noeka/di": "dev-main",
+        "php-di/php-di": "dev-master"
     },
     "license": "MIT",
     "autoload": {
@@ -23,6 +25,7 @@
     ],
     "minimum-stability": "dev",
     "require-dev": {
-        "phpstan/phpstan": "2.0.x-dev"
+        "phpstan/phpstan": "2.0.x-dev",
+        "phpunit/phpunit": "^11.0@dev"
     }
 }
