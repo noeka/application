@@ -8,7 +8,7 @@ use Noeka\DI\Container;
 class Application {
     protected ContainerInterface $container;
 
-    public function __construct(?ContainerInterface $container) {
+    public function __construct(?ContainerInterface $container = null) {
         $this->resolveContainer($container);
     }
 
